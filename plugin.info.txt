@@ -1,0 +1,7 @@
+base   gozhevrumenu
+author Mikhail Gozhev
+email  m@gozhev.ru
+date   2021-11-07
+name   gozhevrumenu plugin
+desc   
+url    

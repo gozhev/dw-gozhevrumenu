@@ -1,0 +1,59 @@
+.tree {
+}
+
+.tree .list {
+	display: flex;
+	flex-direction: column;
+}	
+
+.tree .list .node {
+}
+
+.tree .list .node.leaf {
+	flex-grow: 1;
+}
+
+.tree .list .branch {
+}
+
+.tree .list .node a,
+.tree .list .node a:link,
+.tree .list .node a:visited {
+	display: block;
+	text-decoration: none;
+	color: #b0b0b0;
+	padding: 0.25rem;
+	border-radius: 0.15rem;
+}
+
+.tree .list .node a:hover {
+	color: #fff;
+	background-color: #333;
+}
+
+.tree .list .node a.link.selected {
+	color: #fff;
+	font-weight: bold;
+}
+
+.tree .list .node.leaf a.link {
+	padding-left: 2.25rem;
+}
+
+.tree .list .node.branch .linkbox a.link {
+	flex-grow: 1;
+}
+
+.tree .list .node.branch .linkbox a.fold-button {
+	flex: 0 0 1.5rem;
+	text-align: center;
+}
+
+.tree .list .node.branch .linkbox {
+	display: flex;
+	flex-direction: row;
+}
+
+.tree .list .node.branch .list {
+	margin-left: 1rem;
+}
